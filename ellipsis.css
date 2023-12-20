@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 0;
+    margin: 0 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 20px; 
+    }
+}
+
+h1 {
+    font-size: 2.5em;
+    color: rgb(125, 165, 152); 
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 + p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#sections {
+    font-size: 1em;
+    line-height: 1.6;
+
+}
+
+h2 {
+    color: rgb(132, 123, 123);
+    font-size: 1.7em;
+}
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    max-width: 90%;
+  }
+
+.example {
+    border: 1px solid #ddd; 
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #f9f9f9; 
+    border-radius: 5px;
+    max-width: 60%;
+}
+
+.example p {
+    margin: 10px 0;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+#mySidenav a:hover {
+    left: 0;
+  }
+  
+#one {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+#two {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+#three {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+#four {
+    top: 200px;
+    background-color: #555
+  }
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.sources {
+    line-height: 1.6;
+    font-size: 1em;
+}
+.sources a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sources a:hover {
+    text-decoration: underline;
+}
+
+.sources a:visited {
+    color: purple; /* Change to the desired color */
+}
+
+
+
