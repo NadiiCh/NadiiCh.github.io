@@ -94,7 +94,7 @@ h2 {
   
 #four {
     top: 200px;
-    background-color: #555
+    background-color: #555;
   }
 
 
@@ -118,6 +118,7 @@ th {
     line-height: 1.6;
     font-size: 1em;
 }
+
 .sources a {
     color: #007bff; 
     text-decoration: none;
