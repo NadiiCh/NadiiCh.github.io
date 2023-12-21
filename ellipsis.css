@@ -119,7 +119,7 @@ th {
     font-size: 1em;
 }
 .sources a {
-    color: #007bff; /* Blue color for links */
+    color: #007bff; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -129,7 +129,7 @@ th {
 }
 
 .sources a:visited {
-    color: purple; /* Change to the desired color */
+    color: purple; 
 }
 
 
